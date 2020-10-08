@@ -1,0 +1,25 @@
+.menu-button{color:white;}
+
+.subtitle{margin-bottom: 3rem;
+color:white}
+
+.title-name{color:red}
+
+.js{ color:yellow;
+    margin:25px;
+}
+
+.react{color:rgb(97, 219, 251);
+    margin:25px;
+}
+
+.html{color:#f16529;
+margin:25px;}
+
+.css{color:#2488c6;
+margin:25px;}
+
+.navbarTitle{color:white;
+text-decoration: none;}
+
+.MuiTypography-root{text-decoration: none;}

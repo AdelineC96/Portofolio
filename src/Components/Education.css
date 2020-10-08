@@ -1,0 +1,16 @@
+.container{display:flex;
+    justify-content: space-around;
+    }
+    
+
+.yearColumn{width:30%;
+margin:30px;
+}
+
+.schoolColumn{width:60%;
+margin:30px;}
+
+.progressBar{margin:auto;
+width:75%}
+
+.barContainer{margin:30px;width:100%}
