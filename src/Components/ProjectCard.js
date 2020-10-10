@@ -38,7 +38,7 @@ export default function MediaCard() {
 
   return (
       <>
-      <div  data-aos="flip-left">
+      <div data-aos="flip-left">
       <a style={{textDecoration:"none"}} target="_blank" href="https://hungry-wiles-820e03.netlify.app/">
     <Card className={classes.root}>
       <CardActionArea>

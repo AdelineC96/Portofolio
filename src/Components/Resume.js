@@ -4,12 +4,18 @@ import {Grid,Cell} from 'react-mdl'
 import "./Resume.css"
 import Education from "./Education"
 import Skills from "./Skills"
-
-
+import AOS from 'aos';
 
 
 
 class Resume extends Component{
+    componentDidMount() {
+        // or simply just AOS.init();
+        AOS.init({
+          // initialise with other settings
+          duration : 2000
+        });
+      }
     render(){
         return(
             <>
@@ -18,7 +24,7 @@ class Resume extends Component{
             <Grid className="container"> 
                
                 <Cell className="resume-col" col={8}>
-                    <div className="education-section">
+                    <div  data-aos="zoom-in-left" className="education-section">
                     <h1 className="main-title">Education</h1>
                     <Education startYear={2011}
                     endYear={2015}
@@ -43,7 +49,7 @@ class Resume extends Component{
                     "
                     />
                     </div>
-                    <div>
+                    <div data-aos="zoom-in-right">
                     <h1 className="main-title">Professional Experience</h1>
                     <Education startYear={2018}
                     endYear={2019}
@@ -61,6 +67,7 @@ class Resume extends Component{
 
                     </div>
                     <hr style={{borderTop:"3px", width:"80%"}}/>
+                    <div data-aos="zoom-in-left">
                     <h1 className="main-title">Skills</h1>
                     <Skills skill="Javascript" 
                     progress={80}/>
@@ -70,7 +77,9 @@ class Resume extends Component{
                     progress={70}/>
                     <Skills skill="React" 
                     progress={50}/>
+                    </div>
                     <hr style={{borderTop:"3px", width:"80%"}}/>
+                    <div data-aos="zoom-in-left">
                     <h1 className="main-title">Languages</h1>
                     <Skills skill="Romanian" 
                     progress={100}/>
@@ -78,6 +87,7 @@ class Resume extends Component{
                     progress={100}/>
                     <Skills skill="Italian" 
                     progress={50}/>
+                    </div>
                 </Cell>
 
             </Grid>

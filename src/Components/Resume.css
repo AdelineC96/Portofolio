@@ -67,3 +67,277 @@ font-size: 23px;}
 .contact{font-size:15px;
     color:#2488c6;
 font-weight: bold;}
+
+
+
+@media only screen and (max-width: 480px){
+    .resume-col{background: #2488c6;
+        border-radius: 30px;
+        width:80%;
+        margin-top:80px;
+        margin-right:20px;
+        margin-bottom:20px;
+        color:white}
+
+    .first-cell{width: 80%;
+    }
+    .profile-picture{width:100px;
+        border-radius: 200px;
+    }
+    
+    .aboutMe-section{
+    background-color: white;
+    padding: 20px;
+    margin-bottom:20px;
+    border-radius: 30px;
+    margin:30px;}
+    
+    .main-title{ margin-left:35px;
+        text-shadow: 6px 6px 7px rgba(177, 150, 243, 1);
+        font-size: 20px;
+    font-family: 'Playfair Display', serif;}
+    
+    .fb{color:#4267B2;;
+    margin:20px;}
+    
+    .linkedIn{color:#2867B2;
+    margin:20px;}
+    
+    .gitHub{color:black;
+    margin:20px}
+    
+    .myName{font-family: 'Nunito', sans-serif;
+        font-size:30px;
+    }
+    .secondTitle{font-family: 'Nunito', sans-serif;
+    font-size:15px;}
+    
+    .text{font-family: 'Nunito', sans-serif;
+    color:#2488c6;
+    font-size: 20px;}
+    
+    .contact{font-size:15px;
+        color:#2488c6;
+    font-weight: bold;}
+    
+}
+
+
+@media only screen and (min-width:480px)and (max-width:700px){
+    .resume-col{background: #2488c6;
+        border-radius: 30px;
+        width:80%;
+        margin-top:80px;
+        margin-right:20px;
+        margin-bottom:20px;
+        color:white}
+
+    .first-cell{width: 80%;
+    }
+    .profile-picture{width:150px;
+        border-radius: 200px;
+    }
+    
+    .aboutMe-section{
+    background-color: white;
+    padding: 20px;
+    margin-bottom:20px;
+    border-radius: 30px;
+    margin:30px;}
+    
+    .main-title{ margin-left:35px;
+        text-shadow: 6px 6px 7px rgba(177, 150, 243, 1);
+        font-size: 20px;
+    font-family: 'Playfair Display', serif;}
+    
+    .fb{color:#4267B2;;
+    margin:20px;}
+    
+    .linkedIn{color:#2867B2;
+    margin:20px;}
+    
+    .gitHub{color:black;
+    margin:20px}
+    
+    .myName{font-family: 'Nunito', sans-serif;
+        font-size:30px;
+    }
+    .secondTitle{font-family: 'Nunito', sans-serif;
+    font-size:15px;}
+    
+    .text{font-family: 'Nunito', sans-serif;
+    color:#2488c6;
+    font-size: 20px;}
+    
+    .contact{font-size:15px;
+        color:#2488c6;
+    font-weight: bold;}
+    
+}
+
+
+@media only screen and (min-width:700px)and (max-width:900px){
+    .resume-col{background: #2488c6;
+        border-radius: 30px;
+        width:80%;
+        margin-top:80px;
+        margin-right:20px;
+        margin-bottom:20px;
+        color:white}
+
+
+    .first-cell{width: 70%;
+    }
+    .profile-picture{width:200px;
+        border-radius: 200px;
+    }
+    
+    .aboutMe-section{
+    background-color: white;
+    padding: 20px;
+    margin-bottom:20px;
+    border-radius: 30px;
+    margin:30px;}
+    
+    .main-title{ margin-left:35px;
+        text-shadow: 6px 6px 7px rgba(177, 150, 243, 1);
+        font-size: 20px;
+    font-family: 'Playfair Display', serif;}
+    
+    .fb{color:#4267B2;;
+    margin:20px;}
+    
+    .linkedIn{color:#2867B2;
+    margin:20px;}
+    
+    .gitHub{color:black;
+    margin:20px}
+    
+    .myName{font-family: 'Nunito', sans-serif;
+        font-size:30px;
+    }
+    .secondTitle{font-family: 'Nunito', sans-serif;
+    font-size:15px;}
+    
+    .text{font-family: 'Nunito', sans-serif;
+    color:#2488c6;
+    font-size: 20px;}
+    
+    .contact{font-size:15px;
+        color:#2488c6;
+    font-weight: bold;}
+    
+
+
+}
+
+
+@media only screen and (min-width:1400px){
+    .resume-col{background: #2488c6;
+        border-radius: 30px;
+        width:50%;
+        margin-top:80px;
+        margin-right:20px;
+        margin-bottom:20px;
+        color:white}
+
+
+    .first-cell{width: 40%;
+    }
+    .profile-picture{width:200px;
+        border-radius: 200px;
+    }
+    
+    .aboutMe-section{
+    background-color: white;
+    padding: 20px;
+    margin-bottom:20px;
+    border-radius: 30px;
+    margin:20px;}
+    
+    .main-title{ margin-left:35px;
+        text-shadow: 6px 6px 7px rgba(177, 150, 243, 1);
+        font-size: 20px;
+    font-family: 'Playfair Display', serif;}
+    
+    .fb{color:#4267B2;;
+    margin:20px;}
+    
+    .linkedIn{color:#2867B2;
+    margin:20px;}
+    
+    .gitHub{color:black;
+    margin:20px}
+    
+    .myName{font-family: 'Nunito', sans-serif;
+        font-size:30px;
+    }
+    .secondTitle{font-family: 'Nunito', sans-serif;
+    font-size:15px;}
+    
+    .text{font-family: 'Nunito', sans-serif;
+    color:#2488c6;
+    font-size: 20px;}
+    
+    .contact{font-size:15px;
+        color:#2488c6;
+    font-weight: bold;}
+    
+
+
+}
+
+@media only screen and (max-width:400px){
+
+    .resume-col{background: #2488c6;
+        border-radius: 30px;
+        width:50%;
+        margin-top:80px;
+        margin-right:20px;
+        margin-bottom:20px;
+        color:white}
+
+    .first-cell{width: 90%;
+    }
+    .profile-picture{width:100px;
+        border-radius: 200px;
+    }
+    
+    .aboutMe-section{
+    background-color: white;
+    padding: 20px;
+    margin-bottom:20px;
+    border-radius: 30px;
+    margin:20px;}
+    
+    .main-title{ margin-left:35px;
+        text-shadow: 6px 6px 7px rgba(177, 150, 243, 1);
+        font-size: 10px;
+    font-family: 'Playfair Display', serif;}
+    
+    .fb{color:#4267B2;;
+    margin:20px;}
+    
+    .linkedIn{color:#2867B2;
+    margin:20px;}
+    
+    .gitHub{color:black;
+    margin:20px}
+    
+    .myName{font-family: 'Nunito', sans-serif;
+        font-size:20px;
+    }
+    .secondTitle{font-family: 'Nunito', sans-serif;
+    font-size:15px;}
+    
+    .text{font-family: 'Nunito', sans-serif;
+    color:#2488c6;
+    font-size: 20px;}
+    
+    .contact{font-size:15px;
+        color:#2488c6;
+    font-weight: bold;}
+    
+
+
+}

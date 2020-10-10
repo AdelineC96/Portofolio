@@ -13,8 +13,8 @@ import { faCss3Alt } from '@fortawesome/free-brands-svg-icons'
 
 
 const editStyles=makeStyles(theme=>({
-    avatar:{ width:theme.spacing(20),
-    height:theme.spacing(20),
+    avatar:{ width:theme.spacing(18),
+    height:theme.spacing(17),
     margin:theme.spacing(1)
     },
     title:{color:"white"},

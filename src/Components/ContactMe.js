@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import emailjs from 'emailjs-com';
 import NavigationBar from "./NavigationBar"
 import { Typography } from '@material-ui/core';
@@ -12,6 +12,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function ContactUs() {
 
+
+  const [count,setCount] = useState(0);
+
   function sendEmail(e) {
       
     e.preventDefault();
@@ -22,6 +25,7 @@ export default function ContactUs() {
         console.log(error.text);
     });
     e.target.reset()
+    setCount(count+1);
 }
 
   return (
@@ -73,7 +77,7 @@ export default function ContactUs() {
         Submit
         </Button>
         </form>
-
+          {count?"Your message has been sent.":""}
         </div>
     </>
   );
