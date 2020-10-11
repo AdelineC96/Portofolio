@@ -7,7 +7,7 @@ import Button from '@material-ui/core/Button';
 import "./ContactMe.css"
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import Footer from "./Footer"
 
 
 export default function ContactUs() {
@@ -40,7 +40,7 @@ export default function ContactUs() {
       <form className="contact-form" onSubmit={sendEmail}>
     <TextField
           className="inputs"
-          label="name"
+          label="Name"
           margin="dense"
           name="name"
           required="true"
@@ -51,7 +51,7 @@ export default function ContactUs() {
           variant="outlined"
         />
          <TextField
-          label="email"
+          label="Email"
           className="inputs"
           name="email"
           margin="dense"
@@ -63,7 +63,7 @@ export default function ContactUs() {
           variant="outlined"
         />
         <TextField
-          label="message"
+          label="Message"
           name="message"
           className="inputs"
           required="true"
@@ -73,12 +73,13 @@ export default function ContactUs() {
           placeholder="Type a Message"
           variant="outlined"
         />
-         <Button color="primary" type="submit" value="Send"variant="contained" color="primary" >
+         <Button size="small" color="primary" type="submit" value="Send"variant="contained" color="primary" >
         Submit
         </Button>
         </form>
           {count?"Your message has been sent.":""}
         </div>
+        <Footer/>
     </>
   );
 }

@@ -1,7 +1,23 @@
+html{height:100%}
+
+
 body{
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+  width: 100%;
   background: url(laptop.jpeg) no-repeat center center fixed;
   -webkit-background:cover;
   -moz-background:cover;
   -o-background:cover;
   background:cover;
+  overflow-x: hidden;
+
   }
+ 
+
+*{
+  margin:0;
+  padding:0;
+ }
+

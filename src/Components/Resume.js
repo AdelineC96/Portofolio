@@ -5,6 +5,7 @@ import "./Resume.css"
 import Education from "./Education"
 import Skills from "./Skills"
 import AOS from 'aos';
+import Footer from "./Footer"
 
 
 
@@ -33,13 +34,14 @@ class Resume extends Component{
                     schoolDescription="Acquired Cambridge English Level 2 Certificate in ESOL International(Advanced)
                     Acquired ECDL Core Certificare"
                     />
-                    <hr style={{borderTop:"3px", width:"80%"}}/>
+                   <hr className="horizontal-line"/>
+
                      <Education startYear={2015}
                     endYear={2018}
                     schoolName="University of Medicine and Pharmacy, Iuliu-Hatieganu Cluj Napoca"
                     schoolType="Technical Dentistry"
                     />
-                    <hr style={{borderTop:"3px", width:"80%"}}/>
+                    <hr className="horizontal-line"/>
                      <Education startYear={2020}
                     endYear={2020}
                     schoolName="The Informal School of IT"
@@ -57,7 +59,7 @@ class Resume extends Component{
                     schoolType="Customer Service Representative"
                     schoolDescription="I've assisted the customers who were contacting us via chat,email and phone with the issues they were facing with their products. I've developed my soft skills,technical skills and experience in working with KPI's that the client was demanding. "
                     />
-                    <hr style={{borderTop:"3px", width:"80%"}}/>
+                    <hr className="horizontal-line"/>
                       <Education startYear={2019}
                     endYear={"Present"}
                     schoolName="Sykes Enterprises Eastern Europe"
@@ -66,7 +68,7 @@ class Resume extends Component{
                     />
 
                     </div>
-                    <hr style={{borderTop:"3px", width:"80%"}}/>
+                    <hr className="horizontal-line"/>
                     <div data-aos="zoom-in-left">
                     <h1 className="main-title">Skills</h1>
                     <Skills skill="Javascript" 
@@ -78,7 +80,7 @@ class Resume extends Component{
                     <Skills skill="React" 
                     progress={50}/>
                     </div>
-                    <hr style={{borderTop:"3px", width:"80%"}}/>
+                    <hr className="horizontal-line"/>
                     <div data-aos="zoom-in-left">
                     <h1 className="main-title">Languages</h1>
                     <Skills skill="Romanian" 
@@ -92,6 +94,7 @@ class Resume extends Component{
 
             </Grid>
             </div>
+            <Footer/>
 
 
             </>

@@ -23,3 +23,12 @@ margin:25px;}
 text-decoration: none;}
 
 .MuiTypography-root{text-decoration: none;}
+
+
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape) {
+                    .avatar-picture{display: none;}
+                    .header-name{text-align: center;
+                    margin-top:50px;}
+}

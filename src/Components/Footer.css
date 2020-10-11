@@ -1,0 +1,21 @@
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: black;
+    color:white;
+    text-align: center;
+ 
+}
+.container-footer{display:flex;
+flex-direction:column;}
+.copyright {
+    align-self: center;
+    justify-items: center;
+    font-size:10px;
+    color: #fff;
+    margin-top: 20px;
+
+}

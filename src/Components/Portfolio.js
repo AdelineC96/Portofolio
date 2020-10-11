@@ -3,6 +3,7 @@ import NavigationBar from "./NavigationBar"
 import MediaCard from "./ProjectCard"
 import "./Portofolio.css"
 import AOS from 'aos';
+import Footer from "./Footer"
 
 
 class Portfolio extends Component{
@@ -16,15 +17,13 @@ class Portfolio extends Component{
       }
 
     render(){
-        const photo={}
         return(
             <>
             <NavigationBar/>
             <div className="cards-container">
                 <MediaCard/>
-                
-
             </div>
+            <Footer/>
             </>
         )
     }

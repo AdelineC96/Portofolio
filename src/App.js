@@ -8,8 +8,12 @@ import Scroll from "./Scroll";
 import AboutMe from "./Components/AboutMe"
 import Portfolio from"./Components/Portfolio"
 import Contact from "./Components/ContactMe"
+import Footer from './Components/Footer';
+
 
 function App() {
+
+
   return (
     <>
     <CssBaseline/>

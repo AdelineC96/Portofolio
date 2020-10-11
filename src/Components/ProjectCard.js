@@ -77,7 +77,7 @@ export default function MediaCard() {
             New Project
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Excepteur sint occaecat cupidatat non proident.
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -99,7 +99,7 @@ export default function MediaCard() {
           New Project
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Excepteur sint occaecat cupidatat non proident.
           </Typography>
         </CardContent>
       </CardActionArea>
