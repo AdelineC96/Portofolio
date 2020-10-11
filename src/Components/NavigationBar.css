@@ -32,3 +32,51 @@ text-decoration: none;}
                     .header-name{text-align: center;
                     margin-top:50px;}
 }
+
+@media only screen and (min-device-width: 350px) 
+                   and (max-device-width: 480px) 
+                   and (orientation: landscape) {
+                    .avatar-picture{display: none;}
+                    .header-name{text-align: center;
+                    margin-top:50px;}
+}
+
+@media only screen and (min-device-width: 640px) 
+                   and (max-device-width: 770px) 
+                   and (orientation: landscape) {
+                    .avatar-picture{margin-top: 100px;}
+                    .header-name{text-align: center;
+                    margin-top:10px;}
+}
+
+@media only screen and (min-device-width: 770px) 
+                   and (max-device-width: 1100px) 
+                   and (orientation: landscape) {
+                    .avatar-picture{margin-top: 100px;}
+                    .header-name{text-align: center;
+                    margin-top:10px;}
+}
+
+
+@media only screen and (min-device-width: 1100px) 
+                   and (orientation: landscape) {
+                    .avatar-picture{margin-top: 100px;}
+                    .header-name{text-align: center;
+                    margin-top:10px;}
+}
+
+
+@media only screen and (max-device-width: 450px) 
+                   and (orientation: landscape) {
+                    .avatar-picture{display:none;}
+                    .header-name{text-align: center;
+                    margin-top:10px;}
+}
+
+
+@media only screen and (max-device-width: 450px) 
+                   {
+                    .avatar-picture{margin-top:30px;}
+                    .header-name{text-align: center;
+                    margin-top:10px;}
+}
