@@ -82,9 +82,9 @@ font-weight: bold;}
    
     .resume-col{background: #2488c6;
     border-radius: 30px;
-    width:50%;
+    width:45%;
     margin-top:80px;
-    margin-right:20px;
+    margin-right:10px;
     color:white}
     
     .container{display:flex;
@@ -270,10 +270,12 @@ font-weight: bold;}
 
     .resume-col{background: #2488c6;
         border-radius: 30px;
-        width:70%;
+        width:75%;
         margin-top:80px;
         margin-right:5px;
         margin-bottom:20px;
+        overflow-x: hidden;
+
         color:white}
 
     .first-cell{width: 90%;
@@ -286,6 +288,7 @@ font-weight: bold;}
     background-color: white;
     padding: 20px;
     margin-bottom:20px;
+    overflow-x: hidden;
     border-radius: 30px;
     margin:20px;}
     
