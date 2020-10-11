@@ -266,7 +266,7 @@ font-weight: bold;}
 
 
 
-@media only screen and (max-width:400px){
+@media only screen and (max-width:500px){
 
     .resume-col{background: #2488c6;
         border-radius: 30px;
@@ -320,3 +320,5 @@ font-weight: bold;}
 
 
 }
+
+
