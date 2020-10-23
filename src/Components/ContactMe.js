@@ -33,7 +33,7 @@ export default function ContactUs() {
       <NavigationBar/>
   <div className="contact-container">
       
-    <Typography style={{color:"blue"}}>
+    <Typography style={{color:"blue", size:"100px"}}>
     <FontAwesomeIcon className="fa-2x faPaperPlane" icon={faPaperPlane} />
         Contact Me...
     </Typography>

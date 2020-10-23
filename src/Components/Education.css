@@ -17,7 +17,10 @@
     
 
 
-.school-container{padding:30px;}
+.school-container{padding:30px;
+    margin-top:-30px;
+    margin-bottom: 50px;
+}
 
 .progressBar{margin:auto;
 width:75%}
