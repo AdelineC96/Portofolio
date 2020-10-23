@@ -3,14 +3,220 @@
     }
     
 
-.yearColumn{width:30%;
-margin:30px;
+.yearColumn{width:20%;
+    margin:15px;
 }
 
-.schoolColumn{width:60%;
-margin:30px;}
+.timelineYear{font-size: 18px;
+    
+}
+.schoolColumn{width:70%;
+    border-left: 2px solid lightgrey;
+    margin-bottom: 20px;
+    margin-top:80px;}
+    
+
+
+.school-container{padding:30px;}
 
 .progressBar{margin:auto;
 width:75%}
 
 .barContainer{margin:30px;width:100%}
+
+
+.schoolName{font-size: 25px;
+cursor: pointer;}
+
+.schoolLogo{width:100px;
+    margin-left: 100px;
+    border-radius:100%;
+}
+
+
+
+.schoolType{margin:10px;
+font-size: 15px;}
+
+
+
+
+
+@media only screen and (max-width: 480px){
+
+   
+.schoolColumn{width:80%;
+    border-left: 2px solid lightgrey;
+    margin-bottom: 5px;
+    margin:40x;}
+    
+    
+
+    .schoolLogo{width:90px;
+        margin-left: 40px;
+        margin-top:60px;
+        border-radius:100%;
+    }
+.timelineYear{font-size: 15px;}
+
+.schoolType{font-size: 13px;}
+    
+.yearColumn{width:10%;
+    margin:10px;
+
+}
+    
+.schoolName{font-size: 15px;
+    cursor: pointer;}
+}
+
+@media only screen and (min-width:480px)and (max-width:700px){
+
+    .schoolColumn{width:80%;
+        border-left: 2px solid lightgrey;
+        margin-bottom: 5px;
+        margin-top:80px;}
+        
+
+        
+    .schoolLogo{width:120px;
+        margin-left: 40px;
+        margin-top:60px;
+        border-radius:100%;
+    }
+.timelineYear{font-size: 15px;}
+
+    
+    
+.yearColumn{width:10%;
+    margin:10px;
+}
+    
+.schoolName{font-size: 15px;
+    cursor: pointer;}
+}
+
+@media only screen and (min-width:700px)and (max-width:800px){
+    .schoolLogo{width:100px;
+        margin-left: 60px;
+        margin-top:60px;
+        border-radius:100%;
+    }
+.timelineYear{font-size: 15px;}
+
+.schoolColumn{width:80%;
+    border-left: 2px solid lightgrey;
+    margin-bottom: 5px;
+    margin-top:80px;}
+    
+    
+.yearColumn{width:10%;
+    margin:10px;
+}
+    
+.schoolName{font-size: 15px;
+    cursor: pointer;}
+
+.schoolType{font-size: 13px;
+}
+
+
+}
+
+
+@media only screen and (min-width:800px)and (max-width:900px){
+
+
+.schoolLogo{width:130px;
+    margin-left: 60px;
+    margin-top:60px;
+    border-radius:100%;
+}
+.timelineYear{font-size: 15px;}
+
+
+
+.yearColumn{width:10%;
+margin:10px;
+}
+
+.schoolName{font-size: 15px;
+cursor: pointer;}
+
+.schoolType{font-size: 13px;
+}
+
+}
+
+@media only screen and (min-width:900px){
+}
+
+.schoolLogo{width:140px;
+    margin-left: 60px;
+    margin-top:60px;
+    border-radius:100%;
+}
+.timelineYear{font-size: 15px;}
+
+
+
+.yearColumn{width:10%;
+margin:10px;
+}
+
+.schoolName{font-size: 15px;
+cursor: pointer;}
+
+.schoolType{font-size: 13px;
+}
+
+
+
+@media only screen and (max-width: 350px){
+    .schoolLogo{width:70px;
+        margin-left: 10px;
+        margin-top:60px;
+        border-radius:100%;
+    }
+    .schoolColumn{width:80%;
+        border-left: 2px solid lightgrey;
+        margin-bottom: 5px;
+        margin:40x;}
+        
+.timelineYear{font-size: 12px;}
+
+.schoolType{font-size: 10px;}
+    
+.yearColumn{width:10%;
+    margin:3px;
+}
+    
+.schoolName{font-size: 13px;
+    cursor: pointer;}
+}
+
+
+
+@media only screen and (min-width: 350px) and (max-width:480px){
+    .schoolLogo{width:80px;
+        margin-left: 20px;
+        margin-top:60px;
+        border-radius:100%;
+    }
+
+    .schoolColumn{width:80%;
+        border-left: 2px solid lightgrey;
+        margin-bottom: 2px;
+        margin:40x;}
+        
+.timelineYear{font-size: 12px;}
+
+.schoolType{font-size: 10px;}
+    
+.yearColumn{width:10%;
+    margin:3px;
+}
+    
+.schoolName{font-size: 13px;
+    cursor: pointer;}
+}

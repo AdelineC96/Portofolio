@@ -6,7 +6,9 @@ import Education from "./Education"
 import Skills from "./Skills"
 import AOS from 'aos';
 import Footer from "./Footer"
-
+import highschool from "../highschool.png"
+import UMF from "../UMF.jpg"
+import InformalIT from "../InformalIT.png"
 
 
 class Resume extends Component{
@@ -29,44 +31,34 @@ class Resume extends Component{
                     <h1 className="main-title">Education</h1>
                     <Education startYear={2011}
                     endYear={2015}
+                    schoolLogo={highschool}
                     schoolName="A.T Laurian National College"
                     schoolType="English bilingual profile"
-                    schoolDescription="Acquired Cambridge English Level 2 Certificate in ESOL International(Advanced)
-                    Acquired ECDL Core Certificare"
+                    schoolDescription=" I've attended 4 years at A.T Laurian National College . I've Acquired:"
+                    items={['Cambridge English Level 2 Certificate in ESOL International(Advanced)',' ECDL Core Certificate']}
+                   
                     />
-                   <hr className="horizontal-line"/>
-
+                    <hr className="horizontal-line"/>
                      <Education startYear={2015}
                     endYear={2018}
+                    schoolLogo={UMF}
                     schoolName="University of Medicine and Pharmacy, Iuliu-Hatieganu Cluj Napoca"
                     schoolType="Technical Dentistry"
+                    schoolDescription=" I've attended 3 years at the University of Medicine and Pharmacy, Iuliu-Hatieganu Cluj Napoca . I've earned a bachelor degree in technical dentistry. During university and I've acquired:"
+                    items={['how to deal with deadlines and finish tasks on time',
+                        'work together as a team , because each dental appliance involved different stages which were distributed to different memebrs of the team and we had to synchronize in order to achieve the final result',
+                        'I have also participated in volunteering at the prophylaxis departments and the social department ']}
                     />
                     <hr className="horizontal-line"/>
                      <Education startYear={2020}
                     endYear={2020}
+                    schoolLogo={InformalIT}
                     schoolName="The Informal School of IT"
                     schoolType="Front-End Development Javascript "
-                    schoolDescription="I have attended a 5 month course at the Informal School of IT and I've learned Web Development concepts such as HTML5, CSS3, Javascript(ECMAScript6) and React. I've acquired knowledge in how to build a responsive website, JS concepts such as AJAX, how to work with an API, OOP, and how to build a functional website.
-                    We had weekly homeworks which were meants to improve our knowledge and practice, also a final team project which was a Movie Website.
-                    "
+                    schoolDescription="I have attended a 5 month course at the Informal School of IT. During the 5 months I've learned Web development concepts such as:"
+                    items={['HTML5','CSS3 (how to build a responsive website)',' Javascript(ECMAScript6) -OOP concepts,variables,primitive types, AJAX, API, functions,hoisting,DOM.',' I have also acquired knowledge in GitHub(basic principles and commands)',' React library(the final team project was done in React and has the following functionalities- add/edit/remove movie using CRUD operations/Advanced Search-search movie by genre,title,year,etc./ login-register function/pagination).']}
+                    
                     />
-                    </div>
-                    <div data-aos="zoom-in-right">
-                    <h1 className="main-title">Professional Experience</h1>
-                    <Education startYear={2018}
-                    endYear={2019}
-                    schoolName="Sykes Enterprises Eastern Europe"
-                    schoolType="Customer Service Representative"
-                    schoolDescription="I've assisted the customers who were contacting us via chat,email and phone with the issues they were facing with their products. I've developed my soft skills,technical skills and experience in working with KPI's that the client was demanding. "
-                    />
-                    <hr className="horizontal-line"/>
-                      <Education startYear={2019}
-                    endYear={"Present"}
-                    schoolName="Sykes Enterprises Eastern Europe"
-                    schoolType="Quality Assurance Analyst"
-                    schoolDescription="I've been promoted to the position of Quality Assurance Analyst. In the following role I was responsible of a team of CSR agents which I had to coach in order to achieve the goals settled in the feedback sessions with an action plan. The role implied that I monitored their calls,chats and emails and determine together with the agents what and how can be improved. This role helped me learn how to work as a team and what is the impact of one's results towards the team. I have also acquired how to face deadlines and achieve the client's requirements. "
-                    />
-
                     </div>
                     <hr className="horizontal-line"/>
                     <div data-aos="zoom-in-left">

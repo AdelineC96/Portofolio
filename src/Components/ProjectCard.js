@@ -7,7 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import moviewebsite from "../moviewebsite.PNG"
-import Js from "../Js.png"
+import personalwebsite from "../personalwebsite.PNG"
 import ReactLogo from "../ReactLogo.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -53,7 +53,7 @@ export default function MediaCard() {
             Venus Movies
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-                The website can also be found on GitHub and is the final group project which has been made by myself and my two other teammates at Informal School of IT.
+                The website can also be found on GitHub and is the final group project which has been made with React by myself and my two other teammates at Informal School of IT.
                     
                 </Typography>
         </CardContent>
@@ -65,26 +65,28 @@ export default function MediaCard() {
     </a>
     </div>
     <div  data-aos="flip-left">
+    <a style={{textDecoration:"none"}} target="_blank" href="https:/adelinacimpan.netlify.app/">
     <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image={Js}
-          title="Incoming Project"
+          image={personalwebsite}
+          title="Personal Website"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            New Project
-          </Typography>
+            Personal Portofolio
+          </Typography>          
           <Typography variant="body2" color="textSecondary" component="p">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Excepteur sint occaecat cupidatat non proident.
+          The website  was made with React library and it involves a page with my current work, a page about my professional experience, my education and a contact me page, where we can get in touch.
           </Typography>
         </CardContent>
       </CardActionArea>
-      <a target="_blank" href="https://github.com/AdelineC96">
+      <a target="_blank" href="https://github.com/AdelineC96/Portofolio">
         <FontAwesomeIcon  className="fa-2x gitHub" icon={faGithub} />
         </a>
     </Card>
+    </a>
     </div>
     <div  data-aos="flip-left">
     <Card className={classes.root}>

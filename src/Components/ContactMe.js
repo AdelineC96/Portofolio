@@ -40,6 +40,7 @@ export default function ContactUs() {
       <form className="contact-form" onSubmit={sendEmail}>
     <TextField
           className="inputs"
+          placeholder="Type Name"
           label="Name"
           margin="dense"
           name="name"
@@ -53,6 +54,7 @@ export default function ContactUs() {
          <TextField
           label="Email"
           className="inputs"
+          placeholder="Type Email"
           name="email"
           margin="dense"
           required="true"

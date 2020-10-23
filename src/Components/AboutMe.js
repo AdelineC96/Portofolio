@@ -5,12 +5,14 @@ import NavigationBar from "./NavigationBar"
 import {Link} from "react-router-dom"
 import {Grid,Cell} from 'react-mdl'
 import capture from "../Capture.png"
+import AdelinaCimpanResume from"./AdelinaCimpanResume.pdf"
 import "./Resume.css"
 import Education from "./Education"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import {faFileDownload} from '@fortawesome/free-solid-svg-icons'
 import AOS from 'aos';
 import Footer from "./Footer"
 import "aos/dist/aos.css";
@@ -78,6 +80,9 @@ class AboutMe extends Component{
                         </a>
                         <a target="_blank" href="https://github.com/AdelineC96">
                         <FontAwesomeIcon  className="fa-4x gitHub" icon={faGithub} />
+                        </a>
+                        <a href={AdelinaCimpanResume} title="" target="_blank" download={AdelinaCimpanResume} >
+                        <FontAwesomeIcon  className="fa-4x gitHub" icon={faFileDownload} />
                         </a>
 
                         </div>

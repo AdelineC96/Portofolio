@@ -8,7 +8,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import InsertDriveFileIcon from '@material-ui/icons/InsertDriveFile';
 import MailIcon from '@material-ui/icons/Mail';
 import MobileMenu from "@material-ui/core/Drawer"
-
+import WorkIcon from '@material-ui/icons/Work';
 
 const editStyles=makeStyles( theme=>({
     menuSliderContainer:{width:250,background:"black", height:"100%"},
@@ -31,9 +31,16 @@ const icons=[
     },
     {
         listOfIcons: <InsertDriveFileIcon/>,
-        textList:"Resume",
-        listPath:"/resume"
+        textList:"Education",
+        listPath:"/education"
     },
+    {
+        listOfIcons: <WorkIcon/>,
+        textList:"Professional Experience",
+        listPath:"/experience"
+    },
+
+
     {
         listOfIcons: <Apps/>,
         textList:"Projects",
@@ -46,6 +53,8 @@ const icons=[
         textList:"Contact Me",
         listPath:"/contact"
     },
+
+    
 ]
 
 

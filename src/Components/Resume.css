@@ -86,6 +86,8 @@ font-weight: bold;}
     margin-top:80px;
     margin-right:10px;
     color:white}
+
+    .schoolName{font-size: 10px;}
     
     .container{display:flex;
         margin-bottom:20%;}
@@ -233,7 +235,7 @@ font-weight: bold;}
     
     .main-title{ margin-left:35px;
         text-shadow: 6px 6px 7px rgba(177, 150, 243, 1);
-        font-size: 20px;
+        font-size: 30px;
     font-family: 'Playfair Display', serif;}
     
     .fb{color:#4267B2;;
@@ -244,6 +246,7 @@ font-weight: bold;}
     
     .gitHub{color:black;
     margin:20px}
+    .resume{width: 50px;}
     
     .myName{font-family: 'Nunito', sans-serif;
         font-size:30px;
@@ -270,10 +273,10 @@ font-weight: bold;}
 
     .resume-col{background: #2488c6;
         border-radius: 30px;
-        width:75%;
+        width:90%;
         margin-top:80px;
         margin-right:5px;
-        margin-bottom:20px;
+        margin-bottom:35px;
         overflow-x: hidden;
 
         color:white}

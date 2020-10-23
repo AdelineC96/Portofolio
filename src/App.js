@@ -9,6 +9,7 @@ import AboutMe from "./Components/AboutMe"
 import Portfolio from"./Components/Portfolio"
 import Contact from "./Components/ContactMe"
 import Footer from './Components/Footer';
+import Experience from './Components/ProfessionalEx'
 
 
 function App() {
@@ -18,8 +19,9 @@ function App() {
     <>
     <CssBaseline/>
     <Route exact path="/" component={Home}/>
-    <Route path="/resume" component={Resume}/>
+    <Route path="/education" component={Resume}/>
     <Route path="/aboutme" component={AboutMe}/>
+    <Route path="/experience" component={Experience}/>
     <Route path="/projects" component={Portfolio}/>
     <Route path="/contact" component={Contact}/>
     <Scroll showBelow={50}/>

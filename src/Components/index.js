@@ -22,6 +22,14 @@ const editStyles=makeStyles({
              shape:{type:"circle",
              stroke:{width:1,color:"white"}},
              size:{value:8,random:true,anim:{enable:true,speed:10,size_min:0.1,sync:true}},
+             interactivity: {
+                events: {
+                  onhover: {
+                    enable: true,
+                    mode: "repulse",
+                  },
+                },
+              },
             
               }
              }
