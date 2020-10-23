@@ -45,10 +45,11 @@ font-size: 15px;}
 @media only screen and (max-width: 480px){
 
    
-.schoolColumn{width:80%;
+.schoolColumn{width:60%;
     border-left: 2px solid lightgrey;
     margin-bottom: 5px;
-    margin:40x;}
+    margin-bottom: 20px;
+    ;}
     
     
 
@@ -74,7 +75,7 @@ font-size: 15px;}
 
     .schoolColumn{width:80%;
         border-left: 2px solid lightgrey;
-        margin-bottom: 5px;
+        margin-bottom: -30px;
         margin-top:80px;}
         
 
@@ -106,7 +107,7 @@ font-size: 15px;}
 
 .schoolColumn{width:80%;
     border-left: 2px solid lightgrey;
-    margin-bottom: 5px;
+    margin-bottom: -30px;
     margin-top:80px;}
     
     
@@ -133,7 +134,11 @@ font-size: 15px;}
     border-radius:100%;
 }
 .timelineYear{font-size: 15px;}
-
+.schoolColumn{width:80%;
+    border-left: 2px solid lightgrey;
+    margin-bottom: -30px;
+    margin-top:80px;}
+    
 
 
 .yearColumn{width:10%;
@@ -158,7 +163,11 @@ cursor: pointer;}
 }
 .timelineYear{font-size: 15px;}
 
-
+.schoolColumn{width:80%;
+    border-left: 2px solid lightgrey;
+    margin-bottom: 30px;
+    margin-top:80px;}
+    
 
 .yearColumn{width:10%;
 margin:10px;
@@ -178,9 +187,9 @@ cursor: pointer;}
         margin-top:60px;
         border-radius:100%;
     }
-    .schoolColumn{width:80%;
+    .schoolColumn{width:70%;
         border-left: 2px solid lightgrey;
-        margin-bottom: 5px;
+        margin-bottom: -10px;
         margin:40x;}
         
 .timelineYear{font-size: 12px;}
@@ -206,7 +215,7 @@ cursor: pointer;}
 
     .schoolColumn{width:80%;
         border-left: 2px solid lightgrey;
-        margin-bottom: 2px;
+        margin-bottom: -30px;
         margin:40x;}
         
 .timelineYear{font-size: 12px;}
