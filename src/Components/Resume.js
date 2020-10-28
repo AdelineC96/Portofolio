@@ -38,6 +38,7 @@ class Resume extends Component{
                     items={['Cambridge English Level 2 Certificate in ESOL International(Advanced)',' ECDL Core Certificate']}
                    
                     />
+
                     <hr className="horizontal-line"/>
                      <Education startYear={2015}
                     endYear={2018}

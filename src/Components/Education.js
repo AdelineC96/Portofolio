@@ -8,6 +8,9 @@ import TimelineConnector from "@material-ui/lab/TimelineConnector";
 import TimelineContent from "@material-ui/lab/TimelineContent";
 import TimelineDot from "@material-ui/lab/TimelineDot";
 import AOS from 'aos';
+import {faChevronDown} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faChevronUp} from '@fortawesome/free-solid-svg-icons'
 
 
 class Education extends Component{
@@ -51,7 +54,10 @@ class Education extends Component{
             <Cell className="schoolColumn" coll={8}>
               <div className="school-container">
                 <img className="schoolLogo" src={this.props.schoolLogo}></img>
-                <h4 onClick={this.toggleVisibility} className="schoolName" style={{marginTop:'0px',margin:"5px"}}>{this.props.schoolName}</h4>
+                <h4 onClick={this.toggleVisibility} className="schoolName" style={{marginTop:'0px',margin:"5px"}}>
+                  {this.props.schoolName}
+                  {this.state.visibility?<FontAwesomeIcon  className="fa-1x dropdown" icon={faChevronUp} /> :<FontAwesomeIcon  className="fa-1x dropdown" icon={faChevronDown} />}
+                </h4>
                 <h6 className="schoolType">{this.props.schoolType}</h6>
                 {this.state.visibility?<div data-aos='zoom-in'><p className="para-school">{this.props.schoolDescription}</p>
                 <ul>
