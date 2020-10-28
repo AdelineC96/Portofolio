@@ -60,7 +60,6 @@ class Experience extends Component{
                     />
                 
                     </div>
-                    <hr className="horizontal-line"/>
                 </Cell>
 
             </Grid>
